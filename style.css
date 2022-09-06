@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Righteous&family=Sarala&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    text-decoration:none ;
+}
+body{
+    font-size: 100%;
+    background:  linear-gradient(68.15deg, #60dbe8 16.62%, #9bd476 85.61%);
+}
+.cabecalho{
+    display:flex;
+    padding: 24px;
+}
+.conteudo{
+    margin-bottom: 48px ;
+    border-top: 0.4px solid #FFF2E7;
+}
+.conteudo-pricipal{
+    display: flex;
+    padding: 50px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+.conteudoDiv{
+  display: flex;
+  flex-direction: column;  
+  gap: 32px ;
+}
+
+.conteudoH1{
+    font-family: 'Righteous', cursive; 
+    font-weight: 400;
+    font-size: 64px;
+    color: #FFF2E7;
+}
+.conteudoH2{
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    color: #FFF2E7;
+}
+.conteudop2{
+ font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    color: #FFF2E7;
+}
+
+.butoes{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.conteudoB1{
+    background-color: #ecd6c4;
+    width: 180px;
+    height: 60px;
+    border:none ;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #2f232575;
+
+}
+.conteudoB1:hover{
+    background-color: #1c151664;
+}
+.conteudoB2{
+    background-color: #ecd6c4;
+    width: 180px;
+    height: 60px;
+    border:none ;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #2f232575;;
+}
+.conteudoB2:hover{
+    background-color: #1c151664;
+}
+
+.gato{
+    display: flex;
+  align-self: start;
+  padding-top: 48px;
+  padding-bottom: 10px;
+   border-bottom:0.4px solid #FFF2E7 ;
+
+}
+
+
+.conteudo-secundario{
+    display: flex;
+    padding: 50px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.conteudoH3{
+    border-top: 0.4px solid #FFF2E7;
+    padding-top: 48px;
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    color: #fcddcb;
+    margin-bottom: 16px;
+}
+.conteudoP1{
+    font-family: 'Sarala', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    color: #fcddcb;
+    text-align: justify;
+    text-align: center;
+}
+
+
+.conteudo-final{
+    padding: 32px;
+    border-top: 0.4px solid #FFF2E7;
+}
+.conteudoH4{
+    font-family: 'Sarala', sans-serif;
+    font-weight: 200;
+    font-size: 18px;
+    color: #FFF2E7;
+    margin-bottom: 16px;
+    text-align: center;
+}
+.lista{
+    color: #fcddcb;
+    font-family: 'Sarala', sans-serif;
+    font-weight: 200;
+    font-size: 18px;
+    text-align: center;
+}
+.conteudoH5{
+    font-family: 'Sarala', sans-serif;
+    font-weight: 200;
+    font-size: 18px;
+    color: #FFF2E7;
+   
+    text-align: center;
+}
+
+
+@media (max-width:700px){
+   
+.gatinho{
+    max-width: 100%;
+    max-height: 100%;
+}
+   .video1{
+    max-width: 100%;
+       max-height: 100%;
+   }
+    .gato{
+        text-align: center;
+        max-width: 100%;
+       max-height: 100%;
+       display: none;
+    }
+
+    .conteudo-pricipal{
+        text-align: center;
+        
+    }
+    .conteudo-secundario{
+        text-align: center;
+    }
+    .conteudo-final{
+      text-align: center;
+    }   
+}
+@media (min-width:700px){
+   
+    .gatinho{
+        display: none;
+    }
+       
+    
+        
+    }
